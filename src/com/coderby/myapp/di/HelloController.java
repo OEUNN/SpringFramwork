@@ -11,6 +11,7 @@ public class HelloController {
 		this.helloService = helloService;
 	}*/
 	
+	
 	//필요한 객체를 전달받을 수 있도록 set 메서드 추가
 	public void setHelloService(IHelloService helloService) {
 		this.helloService = helloService;
